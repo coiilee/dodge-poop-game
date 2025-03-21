@@ -1,0 +1,55 @@
+.game-area {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #000;
+  position: relative;
+  background-color: #d6e1eb;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.player {
+  width: 50px;
+  height: 50px;
+  background-image: url("basket.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 50%;
+}
+
+.poop {
+  width: 50px;
+  height: 50px;
+  background-image: url("candy.png"); /*똥 이미지*/
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.alert {
+  width: 300px;
+  margin: auto;
+  font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.alert button {
+  float: right;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+}
